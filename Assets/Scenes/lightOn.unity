@@ -1638,10 +1638,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 2881729708164600323, guid: ab20b767541e2e54fb92c636583edb3a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 74bb70e981445504d98ef569fa74c470, type: 2}
     - target: {fileID: 3215968856951749456, guid: ab20b767541e2e54fb92c636583edb3a,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380545819760818077, guid: ab20b767541e2e54fb92c636583edb3a,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3507461655212057022, guid: ab20b767541e2e54fb92c636583edb3a,
         type: 3}
@@ -1991,6 +2001,72 @@ ReflectionProbe:
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 8900000, guid: 0666db3acb9a53b4ea9ed82216cb6ecd,
     type: 3}
+--- !u!1 &862931858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4570536456934121209, guid: ab20b767541e2e54fb92c636583edb3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 778417428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &862931862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862931858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f5cf7f6e7cbe246b58d6e45b6ae7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReflectionSample: _ReflectionTex
+  m_TextureSize: 1024
+  m_ClipPlaneOffset: 0.01
+  allMirrors: []
+  NormalTrans: {fileID: 0}
+  useDistanceCull: 0
+  m_SqrMaxdistance: 2500
+  m_maxDistance: 50
+  layerCullingDistances:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  render: {fileID: 0}
+  MSAA: 8
+  renderQuality: 0
+  m_ReflectLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  enableSelfCullingDistance: 1
 --- !u!4 &1291896960 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6744875802613730848, guid: 2c08b31bdc6545243baa855c9a892424,
